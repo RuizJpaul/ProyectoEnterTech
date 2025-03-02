@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'DM Sans';
+}
+body{
+    padding: 20px 0px 0px 40px;
+}
+section{
+    height: 540px;
+    width: 300px;
+    background-image: url(img/fondoVentana.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 25px;
+}
+#cuadro-contenido{
+    padding: 25px;
+    border: solid 1px black;
+}
+#cuadro-imagen{
+    border: solid 1px black;
+    display: flex;
+    justify-content: center;
+    padding: 45px 0px 10px 0px;
+}
+#cuadro-imagen img{
+    width: 75px;
+    border-radius: 50%;
+}
+h1{
+    text-align: center;
+    font-size: 14px;
+}
+p{
+    border: solid 1px black;
+    text-align: center;
+    font-size: 12px;
+    padding: 0px 14px 0px 14px;
+}
+#cuadro-botones{
+    display: flex;
+    flex-direction: column;
+    border: solid 1px black;
+    gap: 15px;
+}
+button{
+    background-color: white;
+    padding: 14px 0px 14px 0px;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 500;
+    box-shadow: 4px 3px 0px black
+}
+#cuadro-enlaces{
+    border: solid 1px black;
+}
+
+
