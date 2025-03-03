@@ -7,9 +7,9 @@ body{
     padding: 20px 0px 0px 40px;
 }
 section{
-    height: 540px;
+    height: 580px;
     width: 300px;
-    background-image: url(img/fondoVentana.jpg);
+    background-image: url(recursos1/fondoVentana.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -17,10 +17,8 @@ section{
 }
 #cuadro-contenido{
     padding: 25px;
-    border: solid 1px black;
 }
 #cuadro-imagen{
-    border: solid 1px black;
     display: flex;
     justify-content: center;
     padding: 45px 0px 10px 0px;
@@ -34,16 +32,15 @@ h1{
     font-size: 14px;
 }
 p{
-    border: solid 1px black;
     text-align: center;
     font-size: 12px;
-    padding: 0px 14px 0px 14px;
+    padding: 4px 15px 0px 15px;
 }
 #cuadro-botones{
     display: flex;
     flex-direction: column;
-    border: solid 1px black;
     gap: 15px;
+    padding-top: 20px;
 }
 button{
     background-color: white;
@@ -52,10 +49,18 @@ button{
     border-radius: 8px;
     font-size: 14px;
     font-weight: 500;
-    box-shadow: 4px 3px 0px black
+    box-shadow: 4px 3px 0px #80a0c9;
 }
 #cuadro-enlaces{
-    border: solid 1px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    padding-top: 25px;
+}
+a img{
+    width: 27px;
+    transition: transform 0.3s ease-in-out;
 }
 
 
