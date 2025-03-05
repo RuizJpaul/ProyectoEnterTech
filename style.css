@@ -27,6 +27,9 @@ section{
     width: 75px;
     border-radius: 50%;
 }
+#cuadro-descripcion{
+    padding: 0px 16px 0px 16px;
+}
 h1{
     text-align: center;
     font-size: 14px;
@@ -34,13 +37,17 @@ h1{
 p{
     text-align: center;
     font-size: 12px;
-    padding: 4px 15px 0px 15px;
+    padding-top: 5px;
 }
 #cuadro-botones{
     display: flex;
     flex-direction: column;
     gap: 15px;
     padding-top: 20px;
+}
+#cuadro-botones a{
+    text-decoration: none;
+    color: black;
 }
 button{
     background-color: white;
@@ -49,7 +56,10 @@ button{
     border-radius: 8px;
     font-size: 14px;
     font-weight: 500;
-    box-shadow: 4px 3px 0px #80a0c9;
+    box-shadow: 5px 3px 0px #80a0c9;
+}
+button:hover{
+    background-color: #c3dbca;
 }
 #cuadro-enlaces{
     display: flex;
@@ -58,7 +68,7 @@ button{
     gap: 14px;
     padding-top: 25px;
 }
-a img{
+#cuadro-enlaces a img{
     width: 27px;
     transition: transform 0.3s ease-in-out;
 }
